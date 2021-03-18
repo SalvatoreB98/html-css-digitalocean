@@ -1,3 +1,5 @@
+/* SELETTORI TAG */
+
 /* NAVBAR */
 .logo{
     height: 100%;
@@ -15,17 +17,48 @@ section{
 strong{
     color: #006aff;
 }
+/* HERO */
+.hero{
+    background-image: url(img/bg-banner-home.jpg);
+}
+.hero h1{
+    color: white;
+    font-weight: 700;
+}
+.hero p{
+    color: #baccff;
+}
 /* PANEL */
 .panel-default>.ms-panel-heading {
     color: #031c4e;
     background-color:white;
     border: transparent;
 }
+.ms-panel-heading h2{
+    font-weight: 700;
+    color: #031c4e;
+}
 .ms-panel{
     border: transparent;
     box-shadow: none;
 }
 /* BUTTONS */
+.ms-btn{
+    box-shadow: gray;
+}
+.ms-blue-btn{
+    background-color: #006aff;
+    color: white;
+}
 .ms-google-btn{
-    
+    font-weight: 600;
+    color: gray;
+    background-color: white;
+    box-shadow: 2px 2px 5px #b8b8b8;
+}
+.google-icon{
+    position: absolute;
+    left: 0;
+    transform: translate(45px,0px);
+    width: 20px;
 }
