@@ -69,6 +69,14 @@ strong{
     background-repeat:no-repeat;
     height: 120px;
 }
+/* DESIGNED FOR SECTION */
+.deploy-section ul{
+    font-size: 17px;
+    line-height: 35px;
+    color: gray;
+    border-left: 2px solid #cacaca;
+    padding-left: 15px;
+}
 /* PANEL */
 .panel-default>.ms-panel-heading {
     color: #031c4e;
@@ -131,9 +139,6 @@ strong{
 }
 /* MEDIA QUERY XS */
 @media screen and (max-width:768px){
-    .customers-section .img-container{
-        height: 100px;
-    }
     .customers-header{
         font-size: 12px;
     }
@@ -156,4 +161,10 @@ strong{
 .heading-4{
     font-size: 17px;
     font-weight: 700;
+}
+.ms-medium-p{
+    color: #5c6a88;
+}
+.block{
+    margin-top: 15px;
 }
