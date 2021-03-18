@@ -47,6 +47,7 @@ strong{
     background-color: #f3f5f9;
 }
 .customers-header{
+    font-size: 20;
     text-align: center;
     font-weight: 700;
     color: grey;
@@ -112,3 +113,11 @@ strong{
     background-image: url(img/splunk.svg);    
 }
 /* MEDIA QUERY XS */
+@media screen and (max-width:768px){
+    .customers-section .img-container{
+        height: 100px;
+    }
+    .customers-header{
+        font-size: 12px;
+    }
+}
