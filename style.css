@@ -1,9 +1,22 @@
 /* SELETTORI TAG */
 
 /* NAVBAR */
+.ms-navbar{
+    padding: 20px 0;
+}
 .logo{
-    height: 100%;
-    width: auto;
+    width: 150px;
+    height: auto;
+}
+.ms-ul{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.ms-navbar a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
 }
 /* SECTION */
 section{
@@ -20,6 +33,7 @@ strong{
 /* HERO */
 .hero{
     background-image: url(img/bg-banner-home.jpg);
+    background-size: cover;
 }
 .hero h1{
     color: white;
