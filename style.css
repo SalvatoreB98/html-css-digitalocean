@@ -1,5 +1,11 @@
 /* SELETTORI TAG */
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+   color: #207cfe; 
+   font-weight: 600;
+}
 /* NAVBAR */
 .ms-navbar{
     padding: 20px 0;
@@ -18,6 +24,10 @@
     text-decoration: none;
     font-weight: 500;
 }
+a.ms-border-btn  { 
+    color: #529aff;
+}
+
 /* SECTION */
 section{
     padding: 50px 0px;
@@ -40,14 +50,15 @@ strong{
     font-weight: 700;
 }
 .hero p{
+    font-weight: 400;
     color: #baccff;
 }
 /* CUSTOMER SECTION */
 .customers-section{
-    background-color: #f3f5f9;
+    
 }
 .customers-header{
-    font-size: 20;
+    font-size: 15px;
     text-align: center;
     font-weight: 700;
     color: grey;
@@ -56,7 +67,7 @@ strong{
     background-position: center;
     background-size: contain;
     background-repeat:no-repeat;
-    height: 200px;
+    height: 120px;
 }
 /* PANEL */
 .panel-default>.ms-panel-heading {
@@ -65,6 +76,7 @@ strong{
     border: transparent;
 }
 .ms-panel-heading h2{
+    font-size: 25px;
     font-weight: 700;
     color: #031c4e;
 }
@@ -85,6 +97,11 @@ strong{
     color: gray;
     background-color: white;
     box-shadow: 2px 2px 5px #b8b8b8;
+}
+.ms-border-btn{
+    padding: 10px;
+    border: 2px solid #529aff;
+    border-radius: 5px;
 }
 .google-icon{
     position: absolute;
@@ -120,4 +137,19 @@ strong{
     .customers-header{
         font-size: 12px;
     }
+}
+/* utilities */
+.heading-2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #031c4e;
+}
+.ms-big-p{
+    font-weight: 500;
+    font-size: 17px;
+    color: gray;
+}
+.green-bg{
+    background-color: #f3f5f9;
 }
