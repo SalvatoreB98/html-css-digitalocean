@@ -42,6 +42,21 @@ strong{
 .hero p{
     color: #baccff;
 }
+/* CUSTOMER SECTION */
+.customers-section{
+    background-color: #f3f5f9;
+}
+.customers-header{
+    text-align: center;
+    font-weight: 700;
+    color: grey;
+}
+.customers-section .img-container{
+    background-position: center;
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 200px;
+}
 /* PANEL */
 .panel-default>.ms-panel-heading {
     color: #031c4e;
@@ -76,3 +91,24 @@ strong{
     transform: translate(45px,0px);
     width: 20px;
 }
+
+/* CUSTOMERS */
+.docker{
+    background-image: url(img/docker.svg);
+}
+.gitlab{
+    background-image: url(img/gitlab.svg);
+}
+.slack{
+    background-image: url(img/slack.svg);
+}
+.hashicorp{
+    background-image: url(img/hashicorp.svg);
+}
+.wework{
+    background-image: url(img/wework.svg);
+}
+.splunk{
+    background-image: url(img/splunk.svg);    
+}
+/* MEDIA QUERY XS */
