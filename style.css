@@ -1,0 +1,31 @@
+/* NAVBAR */
+.logo{
+    height: 100%;
+    width: auto;
+}
+/* SECTION */
+section{
+    padding: 50px 0px;
+    color: #031c4e;
+}
+.ms-panel-heading{
+    text-align: center;
+    font-size: 2rem;
+}
+strong{
+    color: #006aff;
+}
+/* PANEL */
+.panel-default>.ms-panel-heading {
+    color: #031c4e;
+    background-color:white;
+    border: transparent;
+}
+.ms-panel{
+    border: transparent;
+    box-shadow: none;
+}
+/* BUTTONS */
+.ms-google-btn{
+    
+}
