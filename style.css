@@ -153,7 +153,7 @@ strong{
 .ms-big-p{
     font-weight: 500;
     font-size: 17px;
-    color: gray;
+    color:#586686;
 }
 .green-bg{
     background-color: #f3f5f9;
@@ -163,8 +163,14 @@ strong{
     font-weight: 700;
 }
 .ms-medium-p{
-    color: #5c6a88;
+    color: #586686
 }
 .block{
     margin-top: 15px;
+}
+.ms-carusel{
+
+}
+.ms-carusel > *{
+    display: inline-block;
 }
