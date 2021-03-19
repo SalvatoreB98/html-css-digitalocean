@@ -12,10 +12,6 @@ h1 {
 /* NAVBAR */
 .bars-icon{
     display: inline-block;
-    position: absolute;
-    right:20px;
-    top: 20px;
-    transform: translate(0,0);
     font-size: 20px;
 }
 .ms-navbar {
@@ -161,31 +157,7 @@ strong {
 .splunk {
     background-image: url(img/splunk.svg);
 }
-/* MEDIA QUERY XS */
-@media screen and (max-width: 768px) {
-    h1 {
-        font-size: 39px;
-    }
-    .customers-header {
-        font-size: 12px;
-    }
-    .helper .ballon {
-        margin-right: 0;
-    }
-    div.helper {
-        position: fixed;
-        bottom: 0%;
-        right: 0%;
-        width: 300px;
 
-    }
-}   
-/* MEDIA QUERY SM */
-@media screen and (min-width: 769px) {
-    .ms-carousel .ms-img-responsive {
-        max-width: 70%;
-    }
-}
 /* CARUSEL */
 .ms-carousel {
     width: 75%;
@@ -315,10 +287,26 @@ strong {
     font-size: 17px;
     text-align: left;
 }
+/* FOOTER */
+footer{
+    background-color: #031c4e;
+}
+footer h6{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer li{
+    padding: 10px 0;
+}
+footer li a{
+    font-size: 17px;
+    color: #a6adbd;
+}
 /* utilities */
 .heading-2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 700;
 }
 .ms-big-p {
@@ -359,11 +347,46 @@ strong {
     font-weight: bold;
 }
 .padding {
-    padding: 50px;
+    padding: 50px 0;
 }
 .circle-container {
     margin-top: 25px;
 }
-.blue-bg .heading-2 {
+.blue-bg .heading-2{
     color: white;
+}
+/* MEDIA QUERY XS */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    .ms-panel-heading h2 {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .customers-header {
+        font-size: 12px;
+    }
+    .helper .ballon {
+        margin-right: 0;
+    }
+    div.helper {
+        position: fixed;
+        bottom: 0%;
+        right: 0%;
+        width: 300px;
+    }
+    .padding {
+        padding: 20px 0;
+    }
+    .ms-navbar {
+        padding: 10px 0;
+}
+}   
+/* MEDIA QUERY SM */
+@media screen and (min-width: 769px) {
+    .ms-carousel .ms-img-responsive {
+        max-width: 70%;
+    }
 }
