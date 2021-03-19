@@ -10,6 +10,14 @@ h1 {
     font-size: 57px;
 }
 /* NAVBAR */
+.bars-icon{
+    display: inline-block;
+    position: absolute;
+    right:20px;
+    top: 20px;
+    transform: translate(0,0);
+    font-size: 20px;
+}
 .ms-navbar {
     padding: 20px 0;
 }
@@ -27,7 +35,7 @@ h1 {
     text-decoration: none;
     font-weight: 500;
 }
-a.ms-border-btn {
+a.ms-border-btn, a.bars-icon  {
     color: #529aff;
 }
 
@@ -77,9 +85,14 @@ strong {
 .deploy-section ul {
     font-size: 17px;
     line-height: 35px;
-    color: gray;
     border-left: 2px solid #cacaca;
     padding-left: 15px;
+}
+.deploy-section a{
+    color: gray;
+}
+.deploy-section a:hover{
+    color: #b4b4b4a6;
 }
 /* PANEL */
 .panel-default > .ms-panel-heading {
@@ -150,19 +163,23 @@ strong {
 }
 /* MEDIA QUERY XS */
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 39px;
+    }
     .customers-header {
         font-size: 12px;
     }
     .helper .ballon {
         margin-right: 0;
     }
-    .helper {
+    div.helper {
         position: fixed;
         bottom: 0%;
         right: 0%;
-        width: 80%;
+        width: 300px;
+
     }
-}
+}   
 /* MEDIA QUERY SM */
 @media screen and (min-width: 769px) {
     .ms-carousel .ms-img-responsive {
@@ -255,7 +272,6 @@ strong {
     bottom: 0;
     z-index: 3;
     transform: translate(-25px, -25px);
-    width: 450px;
 }
 .helper-icon-container {
     width: 70px;
