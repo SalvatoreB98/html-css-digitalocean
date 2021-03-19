@@ -290,11 +290,13 @@ strong {
 /* FOOTER */
 footer{
     background-color: #031c4e;
+    color: #a6adbd;
 }
 footer h6{
     color: white;
     font-weight: bold;
     font-size: 20px;
+    margin-top: 25px;
 }
 footer li{
     padding: 10px 0;
@@ -302,6 +304,16 @@ footer li{
 footer li a{
     font-size: 17px;
     color: #a6adbd;
+}
+footer a{
+    color: inherit;
+}
+footer .fa{
+    font-size: 30px;
+    padding-right: 15px;
+}
+footer .ms-description{
+    font-size: 17px;
 }
 /* utilities */
 .heading-2 {
