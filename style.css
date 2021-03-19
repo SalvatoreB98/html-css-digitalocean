@@ -168,9 +168,14 @@ strong{
 .block{
     margin-top: 15px;
 }
-.ms-carusel{
-
+CARUSEL
+.ms-carousel{
+    width: 90%;
+    margin: auto;
 }
-.ms-carusel > *{
+.ms-carousel > *{
     display: inline-block;
+}
+.ms-caruosel img{
+    width: 900px;
 }
