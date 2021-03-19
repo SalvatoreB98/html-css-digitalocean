@@ -30,9 +30,6 @@ h1{
 a.ms-border-btn  { 
     color: #529aff;
 }
-.ms-navbar li:hover{
-    background-color: #d8d8d8;
-}
 
 /* SECTION */
 section{
@@ -72,6 +69,9 @@ strong{
     background-size: contain;
     background-repeat:no-repeat;
     height: 120px;
+}
+.customers-section .img-container:hover{
+    opacity: 0.7;
 }
 /* DESIGNED FOR SECTION */
 .deploy-section ul{
