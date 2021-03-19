@@ -54,9 +54,7 @@ strong{
     color: #baccff;
 }
 /* CUSTOMER SECTION */
-.customers-section{
-    
-}
+
 .customers-header{
     font-size: 15px;
     text-align: center;
@@ -143,6 +141,11 @@ strong{
         font-size: 12px;
     }
 }
+@media screen and (min-width:769px){
+    .ms-carousel .ms-img-responsive{
+        max-width: 70%;
+    }
+}
 /* utilities */
 .heading-2{
     text-align: center;
@@ -168,14 +171,45 @@ strong{
 .block{
     margin-top: 15px;
 }
-CARUSEL
-.ms-carousel{
-    width: 90%;
-    margin: auto;
+.ms-description{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 500;
 }
-.ms-carousel > *{
+/* CARUSEL */
+.ms-carousel{
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+.ms-carousel .img-container, .ms-carousel .chevron{
     display: inline-block;
+}
+.img-container{
+    width: 100%;
 }
 .ms-caruosel img{
     width: 900px;
+}
+.chevron{
+    font-size: 40px;
+    margin: 20px;
+}
+.ms-img-responsive{
+    max-width: 90%;
+}
+.ms-carousel a{
+    color:#031c4e;
+}
+.ms-circle{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+.ms-circle-full{
+    background-color: #006aff;
+}
+.ms-circle-empty{
+    border: 1px solid #006aff ;
 }
