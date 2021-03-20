@@ -376,6 +376,9 @@ footer .ms-description{
 .ms-box-shadow{
     box-shadow: 5px 10px 20px 20px #0000001e;
 }
+.carousel-container .unavaliable{
+    color: #cacaca5b;
+}
 /* MEDIA QUERY XS */
 @media screen and (max-width: 768px) {
     h1 {
