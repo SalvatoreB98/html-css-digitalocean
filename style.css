@@ -262,7 +262,6 @@ strong {
     background-color: white;
     border-radius: 10px;
     display: inline-block;
-    box-shadow: 5px 10px 20px 20px #0000001e;
 }
 .shark {
     background-image: url(img/shark.png);
@@ -271,6 +270,13 @@ strong {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+.ms-badge{
+    transform: translate(50%,-50%);
+    background-color: red;
+    border-radius: 50%;
+    border: 3px solid white;
+
 }
 .triangle {
     border-top: 10px solid transparent;
@@ -366,6 +372,9 @@ footer .ms-description{
 }
 .blue-bg .heading-2{
     color: white;
+}
+.ms-box-shadow{
+    box-shadow: 5px 10px 20px 20px #0000001e;
 }
 /* MEDIA QUERY XS */
 @media screen and (max-width: 768px) {
