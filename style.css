@@ -22,7 +22,7 @@ h1 {
     height: auto;
 }
 .ms-ul {
-    margin-left: 50px;
+    text-align: right;
     margin-top: 5px;
     margin-bottom: 0;
 }
