@@ -244,6 +244,7 @@ strong {
     bottom: 0;
     z-index: 3;
     transform: translate(-25px, -25px);
+    transform: scale(0);
 }
 .helper-icon-container {
     width: 70px;
@@ -414,3 +415,15 @@ footer .ms-description{
         max-width: 70%;
     }
 }
+/* HELPER ANIMATION */
+.helper{
+    animation: bounce 2s ease forwards;
+}
+  @keyframes bounce {
+      40% { transform:scale(0); }
+      70% { transform:scale(1); }
+      80% { transform:scale(0.85); }
+      90% { transform:scale(1); }
+      95% { transform:scale(0.93); }
+      100% { transform:scale(1); }
+    }
